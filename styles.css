@@ -513,7 +513,7 @@ html[lang="ko"] .hero .intro-copy h1 {
   letter-spacing: -.045em;
 }
 .intro-role { margin-top: 9px; font-size: .9rem; line-height: 1.55; }
-.intro-panel .hero-summary { max-width: 760px; margin-top: 10px; font-size: 1rem; line-height: 1.7; }
+.intro-panel .hero-summary {width: 100%;max-width: none;margin-top: 10px;font-size: 1rem;line-height: 1.7;word-break: keep-all;}
 .intro-panel .hero-buttons { margin-top: 18px; }
 .intro-panel .interest-list { margin-top: 22px; }
 
