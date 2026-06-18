@@ -731,7 +731,7 @@ html[lang="ko"] .hero .intro-copy h1 {
     white-space: nowrap;
   }
 }
-
+.mobile-role-break { display: none; }
 @media (max-width: 760px) {
   .hero {
     padding-top: 24px;
@@ -776,7 +776,7 @@ html[lang="ko"] .hero .intro-copy h1 {
     font-size: .76rem;
     line-height: 1.48;
   }
-
+.mobile-role-break { display: block; }
   .intro-affiliation-list {
     grid-column: 1 / -1;
     grid-row: 3;
